@@ -1,3 +1,5 @@
+This code snippit is property of Mojang. I claim no right to this
+
 public Random getRandomWithSeed(long seed)
     {
         return new Random(this.world.getSeed() + (long)(this.x * this.x * 4987142) + (long)(this.x * 5947611) + (long)(this.z * this.z) * 4392871L + (long)(this.z * 389711) ^ seed);
